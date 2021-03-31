@@ -128,7 +128,7 @@ class MonitorThread(threading.Thread):
 				print "%d Requests Sent" % (request_counter)
 				previous=request_counter
 		if flag==2:
-			print "\n-- OpNestle has Started --"
+			print "......."
 
 #execute 
 if len(sys.argv) < 2:
